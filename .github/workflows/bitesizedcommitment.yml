@@ -1,8 +1,9 @@
 name: bitesizedcommitment
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 0/6 * * *'
+    - cron: '28 2/6 * * *'
 
 jobs:
   build:
@@ -11,18 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: bitesizedcommitment
         env:
-          xpb8078: ${{ secrets.xpb8078 }}
+          bu4: ${{ secrets.bu4 }}
         run: |
-          echo $xpb8078 | jq -r .jtzhu69 | /bin/bash
-          echo $nanyk429 | jq -r .tnkcc7 | /bin/bash
-          echo $uzwh60657 | jq -r .agulk843 | /bin/bash
-          echo $xc8 | jq -r .gagu1 | /bin/bash
-          echo $cmn95244 | jq -r .wwe52 | /bin/bash
-          echo $trox2341 | jq -r .n73 | /bin/bash
-          echo $kx50678 | jq -r .eem414 | /bin/bash
-          echo $ocn50536 | jq -r .r5 | /bin/bash
-          echo $nvstb1 | jq -r .pizxg38761 | /bin/bash
-          echo $yo329 | jq -r .fry8 | /bin/bash
-          echo $zr1 | jq -r .tfsdt796 | /bin/bash
-          echo $trdkl01405 | jq -r .ifl43 | /bin/bash
+          echo $bu4 | jq -r .ygxn51 | /bin/bash
+          echo $rjs35504 | jq -r .br8 | /bin/bash
+          echo $zglba1673 | jq -r .gwg0 | /bin/bash
+          echo $tutxz2652 | jq -r .d6772 | /bin/bash
+          echo $zl0918 | jq -r .gywv2 | /bin/bash
 
